@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: an ordered collection
+- text: another name of the for-each loop
+- text: an interface implemented by all collections
+- text: a universal mechanism for iterating over collections
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8402#comment
+status: Solved
+record: -1
